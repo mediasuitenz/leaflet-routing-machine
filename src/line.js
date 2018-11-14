@@ -108,6 +108,8 @@
 				j--;
 			}
 
+			if (j === wpIndices.length - 1 && j > 0) j--;
+
 			return j;
 		},
 
